@@ -4,15 +4,14 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		Window w = new SimpleWindow();
-		w.draw();
-		w = new VerticalScrollBar(w);
-		w.draw();
-		w = new HorizontalScrollBar(w);
-		w.draw();
-		w = new SingleBorder(w);
-		w.draw();
-		w = new DoubleBorder(w);
-		w.draw();
+		Window window = new SimpleWindow();
+		window = new VerticalScrollBar(window);
+//		window = new HorizontalScrollBar(window);
+//		
+//		window = new DoubleBorder(window);
+//		window.draw();
+		
+		window = new SingleBorder(window);
+		window.draw();
 	}
 }

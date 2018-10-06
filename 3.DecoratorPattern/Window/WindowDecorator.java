@@ -8,8 +8,7 @@ public abstract class WindowDecorator implements Window
 	{
 		this.wrappedWindow = w;
 	}
-	public void draw()
-	{
-		wrappedWindow.draw();	// ю╖юс
-	}
+	
+	public abstract void draw();
+	public abstract String getDescription();
 }

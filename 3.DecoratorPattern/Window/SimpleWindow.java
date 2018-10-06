@@ -6,4 +6,9 @@ public class SimpleWindow implements Window
 	{
 		System.out.println("draw!");
 	}
+	
+	public String getDescription()
+	{
+		return "simple window";
+	}
 }

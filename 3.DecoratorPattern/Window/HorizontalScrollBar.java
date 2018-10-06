@@ -9,8 +9,13 @@ public class HorizontalScrollBar extends WindowDecorator
 	
 	public void draw()
 	{
-		super.draw();	//(위임)
-//		draw vertical scoll bar;	// 행동 추가
+		// 행동 추가
 		System.out.println("horizontals scroll!");
+		wrappedWindow.draw();
+	}
+	
+	public String getDescription()
+	{
+		return wrappedWindow.getDescription();
 	}
 }

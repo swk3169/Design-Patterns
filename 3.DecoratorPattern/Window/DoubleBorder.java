@@ -9,8 +9,13 @@ public class DoubleBorder extends WindowDecorator
 	
 	public void draw()
 	{
-		super.draw();	//(위임)
 		// 행동 추가
 		System.out.println("double border!");
+		wrappedWindow.draw();
+	}
+	
+	public String getDescription()
+	{
+		return wrappedWindow.getDescription();
 	}
 }
