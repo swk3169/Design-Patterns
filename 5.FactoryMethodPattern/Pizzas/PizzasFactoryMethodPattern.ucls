@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="PizzasFactoryMethodPattern.PizzaTestDrive" project="Design Pattern" 
+    file="/Design Pattern/src/PizzasFactoryMethodPattern/PizzaTestDrive.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="163" x="263" y="186"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="PizzasFactoryMethodPattern.SimplePizzaFactory" project="Design Pattern" 
+    file="/Design Pattern/src/PizzasFactoryMethodPattern/SimplePizzaFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="174" x="263" y="494"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="PizzasFactoryMethodPattern.ClamPizza" project="Design Pattern" 
+    file="/Design Pattern/src/PizzasFactoryMethodPattern/ClamPizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="163" x="477" y="494"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="PizzasFactoryMethodPattern.CheesePizza" project="Design Pattern" 
+    file="/Design Pattern/src/PizzasFactoryMethodPattern/CheesePizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="163" x="680" y="494"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="PizzasFactoryMethodPattern.VeggiePizza" project="Design Pattern" 
+    file="/Design Pattern/src/PizzasFactoryMethodPattern/VeggiePizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="163" x="883" y="494"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="PizzasFactoryMethodPattern.PepperoniPizza" project="Design Pattern" 
+    file="/Design Pattern/src/PizzasFactoryMethodPattern/PepperoniPizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="163" x="1086" y="494"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="PizzasFactoryMethodPattern.PizzaStore" project="Design Pattern" 
+    file="/Design Pattern/src/PizzasFactoryMethodPattern/PizzaStore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="215" x="466" y="186"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="PizzasFactoryMethodPattern.Pizza" project="Design Pattern" 
+    file="/Design Pattern/src/PizzasFactoryMethodPattern/Pizza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="184" x="782" y="186"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <association id="13">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="14" name="factory"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
