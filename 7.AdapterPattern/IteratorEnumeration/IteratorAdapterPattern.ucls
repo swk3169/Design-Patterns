@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="IteratorAdapterPattern.EnumerationIterator" project="Design Pattern" 
+    file="/Design Pattern/src/IteratorAdapterPattern/EnumerationIterator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="243" x="113" y="195"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="IteratorAdapterPattern.El" project="Design Pattern" 
+    file="/Design Pattern/src/IteratorAdapterPattern/El.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="130" x="396" y="195"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="IteratorAdapterPattern.EnumerationIteratorTestDrive" project="Design Pattern" 
+    file="/Design Pattern/src/IteratorAdapterPattern/EnumerationIteratorTestDrive.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="236" x="566" y="195"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="IteratorAdapterPattern.IteratorEnumeration" project="Design Pattern" 
+    file="/Design Pattern/src/IteratorAdapterPattern/IteratorEnumeration.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="210" x="842" y="195"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="IteratorAdapterPattern.IteratorEnumerationTestDrive" project="Design Pattern" 
+    file="/Design Pattern/src/IteratorAdapterPattern/IteratorEnumerationTestDrive.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="236" x="1092" y="195"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
