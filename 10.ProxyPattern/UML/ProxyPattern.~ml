@@ -2149,26 +2149,22 @@
 <XPD:ATTR name="#Attributes" type="integer">4</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="0bF6DfO92E+EVueMLUyUNgAA">
 <XPD:ATTR name="Name" type="string">imageIcon</XPD:ATTR>
-<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">ImageIcon</XPD:ATTR>
 <XPD:REF name="Type_">pmxGbumY00imrId+di6emgAA</XPD:REF>
 <XPD:REF name="Owner">vZnS6L1QJ0ShRyvt2Oc08gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="+6kK6/oRSUi3obTwyXvSngAA">
 <XPD:ATTR name="Name" type="string">imageURL</XPD:ATTR>
-<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">URL</XPD:ATTR>
 <XPD:REF name="Owner">vZnS6L1QJ0ShRyvt2Oc08gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="KRur3KExlkuGsyWISpGrqAAA">
 <XPD:ATTR name="Name" type="string">retrievalThread</XPD:ATTR>
-<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Thread</XPD:ATTR>
 <XPD:REF name="Owner">vZnS6L1QJ0ShRyvt2Oc08gAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="r0WY6rA5dUqlq5aHti8U3gAA">
 <XPD:ATTR name="Name" type="string">retrieving</XPD:ATTR>
-<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">boolean</XPD:ATTR>
 <XPD:REF name="Owner">vZnS6L1QJ0ShRyvt2Oc08gAA</XPD:REF>
 </XPD:OBJ>
@@ -2268,25 +2264,21 @@
 <XPD:ATTR name="#Attributes" type="integer">4</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="j0f9dQeIWkWZSaI+EjK9DwAA">
 <XPD:ATTR name="Name" type="string">frame</XPD:ATTR>
-<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">JFrame</XPD:ATTR>
 <XPD:REF name="Owner">zf1UvX/oBE24WqTM5aDgawAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="q1OApewjUUOhlWoJpoB4WAAA">
 <XPD:ATTR name="Name" type="string">menuBar</XPD:ATTR>
-<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">JMenuBar</XPD:ATTR>
 <XPD:REF name="Owner">zf1UvX/oBE24WqTM5aDgawAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="Hzrur8JDP02FS2Cfb+kWBgAA">
 <XPD:ATTR name="Name" type="string">menu</XPD:ATTR>
-<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">JMenu</XPD:ATTR>
 <XPD:REF name="Owner">zf1UvX/oBE24WqTM5aDgawAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="VxagvIhrYEmvTDrLEbC4cQAA">
 <XPD:ATTR name="Name" type="string">cds</XPD:ATTR>
-<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Hashtable&lt;String,String&gt;</XPD:ATTR>
 <XPD:REF name="Owner">zf1UvX/oBE24WqTM5aDgawAA</XPD:REF>
 </XPD:OBJ>
@@ -2370,13 +2362,11 @@
 <XPD:ATTR name="#Attributes" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="CknUARerkUeVJVjDbKEtdgAA">
 <XPD:ATTR name="Name" type="string">serialVersionID</XPD:ATTR>
-<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">long</XPD:ATTR>
 <XPD:REF name="Owner">GWcjzfJXT0Sd/Ttx3hONqQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="Meo9sjijMEeUiyQ/MKhI6gAA">
 <XPD:ATTR name="Name" type="string">icon</XPD:ATTR>
-<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">icon</XPD:ATTR>
 <XPD:REF name="Owner">GWcjzfJXT0Sd/Ttx3hONqQAA</XPD:REF>
 </XPD:OBJ>
