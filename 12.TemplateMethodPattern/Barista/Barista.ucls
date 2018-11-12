@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="BaristaTemplateMethodPattern.CoffeeWithHook" project="Design Pattern" 
+    file="/Design Pattern/src/BaristaTemplateMethodPattern/CoffeeWithHook.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="244" x="295" y="587"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="BaristaTemplateMethodPattern.Tea" project="Design Pattern" 
+    file="/Design Pattern/src/BaristaTemplateMethodPattern/Tea.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="179" x="863" y="587"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="BaristaTemplateMethodPattern.BeverageTestDrive" project="Design Pattern" 
+    file="/Design Pattern/src/BaristaTemplateMethodPattern/BeverageTestDrive.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="179" x="295" y="352"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="BaristaTemplateMethodPattern.TeaWithHook" project="Design Pattern" 
+    file="/Design Pattern/src/BaristaTemplateMethodPattern/TeaWithHook.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="244" x="579" y="587"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="BaristaTemplateMethodPattern.CaffeineBeverageWithHook" project="Design Pattern" 
+    file="/Design Pattern/src/BaristaTemplateMethodPattern/CaffeineBeverageWithHook.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="195" width="244" x="514" y="352"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="BaristaTemplateMethodPattern.CaffeineBeverage" project="Design Pattern" 
+    file="/Design Pattern/src/BaristaTemplateMethodPattern/CaffeineBeverage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="177" width="179" x="972" y="352"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="BaristaTemplateMethodPattern.Coffee" project="Design Pattern" 
+    file="/Design Pattern/src/BaristaTemplateMethodPattern/Coffee.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="179" x="1082" y="587"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
