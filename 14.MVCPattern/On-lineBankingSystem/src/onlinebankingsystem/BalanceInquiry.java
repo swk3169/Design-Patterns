@@ -11,7 +11,7 @@ public class BalanceInquiry extends AccountCommand
 		this.account_number = account_number;
 	}
 
-	public void excute() {
+	public void execute() {
 		// TODO Auto-generated method stub
 		
 	}
